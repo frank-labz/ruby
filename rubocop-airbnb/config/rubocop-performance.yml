@@ -1,3 +1,5 @@
+require: rubocop-performance
+
 Performance/Caller:
   Enabled: false
 
@@ -119,4 +121,3 @@ Performance/UnfreezeString:
 
 Performance/UriDefaultParser:
   Enabled: false
-
