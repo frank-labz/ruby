@@ -2,16 +2,16 @@ $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 require 'rubocop/airbnb/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'rubocop-franks-airbnb'
-  spec.summary = 'Custom code style checking for Frank labs.'
+  spec.name = 'rubocop-airbnb'
+  spec.summary = 'Custom code style checking for Airbnb.'
   spec.description = <<-EOF
     A plugin for RuboCop code style enforcing & linting tool. It includes Rubocop configuration
     used at Airbnb and a few custom rules that have cause internal issues at Airbnb but are not
     supported by core Rubocop.
   EOF
-  spec.authors = ['Frank Labs Engineering']
-  spec.email = ['rubocop@franks.com.br']
-  spec.homepage = 'https://github.com/frank-labz/ruby'
+  spec.authors = ['Airbnb Engineering']
+  spec.email = ['rubocop@airbnb.com']
+  spec.homepage = 'https://github.com/airbnb/ruby'
   spec.license = 'MIT'
   spec.version = RuboCop::Airbnb::VERSION
   spec.platform = Gem::Platform::RUBY
